@@ -10,7 +10,7 @@ export class UserModel {
     type: String,
     default: () => randomUUID(),
   })
-  _id: string;
+  _id!: string;
 
   @Prop({
     type: String,
